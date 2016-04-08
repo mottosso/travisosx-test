@@ -19,7 +19,7 @@ install:
 - cd ..
 - tar xvzf PyQt-gpl-5.5.1.tar.gz
 - cd PyQt-gpl-5.5.1
-- python configure.py
+- python configure.py --confirm-license
 - make
 - sudo make install
 
