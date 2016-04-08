@@ -1,9 +1,9 @@
 os:
 - osx
-language: python
 python:
 - 2.7
 install:
+- brew update
 - pip install coveralls
 script:
 - echo "Hello OSX!"
