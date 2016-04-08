@@ -4,9 +4,22 @@ python:
 - 2.7
 install:
 - brew update
-- brew install qt5 python
+- brew install qt55 python
+- brew link --force qt55
+
 - wget http://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.5.1/PyQt-gpl-5.5.1.tar.gz
 - wget http://sourceforge.net/projects/pyqt/files/sip/sip-4.17/sip-4.17.tar.gz
+
+- tar xvzf sip-4.16.5.tar.gz
+- cd sip-4.16.5
+- python configure.py
+- make
+- sudo make install
+
+- python configure.py
+- make
+- sudo make install
+
 script:
 - echo "Hello OSX!"
 - echo "New Build!"
