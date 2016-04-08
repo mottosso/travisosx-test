@@ -7,3 +7,4 @@ install:
 - pip install coveralls
 script:
 - echo "Hello OSX!"
+- echo "New Build!"
