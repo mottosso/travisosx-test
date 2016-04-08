@@ -1,0 +1,9 @@
+os:
+- osx
+language: python
+python:
+- 2.7
+install:
+- pip install coveralls
+script:
+- echo "Hello OSX!"
