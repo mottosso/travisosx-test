@@ -4,7 +4,7 @@ python:
 - 2.7
 install:
 - brew update
-- pip install coveralls
+- sudo pip install coveralls
 script:
 - echo "Hello OSX!"
 - echo "New Build!"
