@@ -10,12 +10,14 @@ install:
 - wget http://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.5.1/PyQt-gpl-5.5.1.tar.gz
 - wget http://sourceforge.net/projects/pyqt/files/sip/sip-4.17/sip-4.17.tar.gz
 
-- tar xvzf sip-4.16.5.tar.gz
-- cd sip-4.16.5
+- tar xvzf sip-4.17.tar.gz
+- cd sip-4.17
 - python configure.py
 - make
 - sudo make install
 
+- tar xvzf yQt-gpl-5.5.1.tar.gz
+- cd yQt-gpl-5.5.1
 - python configure.py
 - make
 - sudo make install
