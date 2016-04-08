@@ -16,8 +16,8 @@ install:
 - make
 - sudo make install
 
-- tar xvzf yQt-gpl-5.5.1.tar.gz
-- cd yQt-gpl-5.5.1
+- tar xvzf PyQt-gpl-5.5.1.tar.gz
+- cd PyQt-gpl-5.5.1
 - python configure.py
 - make
 - sudo make install
